@@ -103,7 +103,11 @@ const Booking = () => {
               </div>
               <div className="-rotate-90">
                 <h2 className="text-white">
-                  {eq.status === "unavaliable" ? "1.30 m left" : eq.status}
+                  {eq.status === "unavaliable"
+                    ? "1.30 m left"
+                    : booking === eq.name
+                      ? "Selected"
+                      : eq.status}
                 </h2>
               </div>
               <div

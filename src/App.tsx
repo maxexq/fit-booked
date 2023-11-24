@@ -1,10 +1,14 @@
 import "./App.css";
-import Booking from "./pages/booking";
+import ReservationForm from "./components/forms/ReservationForm";
+import SignIn from "./pages/signin";
+// import Booking from "./pages/booking";
 
 function App() {
   return (
     <>
-      <Booking />
+      <SignIn />
+      {/* <Booking /> */}
+      {/* <ReservationForm /> */}
     </>
   );
 }
